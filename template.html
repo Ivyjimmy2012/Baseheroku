@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+
+    <?xml version="1.0" encoding="iso-8859-1"?>
+
+    <title>template</title>
+
+    {% include 'reusable/headers/links/normal-header-links.html' %}
+
+
+
+
+
+    <script src="{{url_for('static', filename='assets/js/naked.js' )}}"></script>
+
+
+
+</head> 
+
+
+
+
+
+
+<body> 
+
+
+
+
+<div id = "header">
+
+
+
+
+                <!-- back-button -->
+
+
+                {% include 'reusable/sidebars/back-button.html' %}
+
+
+                <!-- back-button end -->
+
+
+
+
+
+
+
+                <!-- header -->
+
+
+                {% include 'reusable/headers/header-link.html' %}
+
+
+                <!-- header end -->
+
+
+
+
+
+
+
+                <!-- svg loader  -->
+
+
+                {% include 'reusable/headers/svg-loader.html' %}
+
+
+                <!-- svg loader end -->
+
+
+
+
+
+</div><!-- end of header -->
+
+
+
+
+
+
+
+
+
+
+<!-- this is the minimalist animated modal -->
+
+
+    {% include 'reusable/headers/modals/tiny-info-modal.html' %}
+
+
+<!-- end of the minimalist animated modal -->
+
+
+
+
+
+
+
+
+
+<!-- message flashes -->
+
+
+
+{% include 'reusable/message_flashes/message-flash.html' %}
+
+
+
+<!-- message flashes end-->
+
+
+
+
+
+
+
+
+
+
+<h1> 
+
+    content
+
+</h1>
+
+
+</body>
+
+
+
+
+
+
+
+
+</html>

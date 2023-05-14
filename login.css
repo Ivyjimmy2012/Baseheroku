@@ -1,0 +1,116 @@
+
+
+html{
+height: 100vh;
+
+background: #1F1D2B;
+
+font-family: system-ui, -apple-system, segoe ui, Roboto, Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji;
+
+overflow-y: hidden;
+}
+
+
+.wrapper{
+    border: 1px solid transparent;
+    text-align: center;
+    background: transparent;
+    border-radius: 20px;
+    max-width: 360px;
+    margin: 50px auto;
+    min-height: 400px;
+    height: 100%;
+    border: 1px solid #f2f2f2;
+    border-color: rgba(228, 228, 231, .2);
+}
+
+.KYOAnFk{
+    color: #d9d9d9;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+}
+
+.sct > form > p{
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.password-form-area > p:nth-child(2){
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.text-center{
+    position: absolute;
+    bottom: 10px;
+}
+
+
+#email, #password, #submit{
+border-radius: 20px;
+border: none;
+height: 30px;
+padding: 0px 10px 0px 10px ;
+
+}
+
+
+#submit{
+background: rgba(59, 130, 246, 1) ;
+width: 90%;
+margin: 0 auto;
+margin-top: 70px;
+color: whitesmoke;
+letter-spacing: 1px;
+}
+
+ 
+label{
+color: rgba(59, 130, 246, 1);
+margin-bottom: 10px;
+letter-spacing: .5px;
+margin-top: 20px;
+}
+
+
+input, input#email, input#password{
+border-radius: 20px;
+border: none;
+height: 30px;
+padding: 0px 10px 0px 10px ;
+width: 85%;
+margin: 0 auto;
+/*background: red;*/
+}
+
+
+.NtMDwPr{
+    margin-top: 10px;
+}
+
+#ZuGigiqIvHlt{
+background: rgba(59, 130, 246, 1) ;
+width: 90%;
+margin: 0 auto;
+color: whitesmoke;
+letter-spacing: 1px;
+margin-top: 40px;
+margin-bottom: 40px;
+}
+
+
+
+.front-logo{
+text-align: center;
+}
+
+.front-logo img{
+width: 80px;
+border-radius: 14px;
+}

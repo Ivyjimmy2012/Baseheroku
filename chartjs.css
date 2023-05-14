@@ -1,0 +1,86 @@
+.chartjscontainer {
+  width: 100%;
+  max-width: 700px;
+  margin: 0px auto;
+  background: #f2f2f2f;
+
+}
+
+
+.chartjsheader {
+font-family: var(--pri-font);
+text-align: center;
+margin-bottom: 15px;
+}
+
+
+
+.chartjsheadersuberinings{
+  color: limegreen;
+  font-size: 18px;
+}
+
+
+.chartjsheadersubdownlines{
+  color: white;
+  font-size: 18px;
+}
+
+.chartjsheaderreinvests{
+  color: skyblue;
+  font-size: 18px;
+}
+
+
+.chartjsheaderupgrade{
+    color: yellow;
+  font-size: 18px;
+}
+
+.chartjsheaderwithdraw{
+      color: red;
+  font-size: 18px;
+}
+
+.chartjs-wrapper {
+  margin-bottom: 80px;
+  width: 100%;
+  margin: 0 auto;
+display: flex;
+align-items: center;
+}
+.chartjs-wrapper .chartjs {
+  min-height: 200px;
+  max-width: 90%;
+  margin: 0 auto;
+  
+}
+
+.customLegend li {
+  display: inline-block;
+  margin-right: 25px;
+  margin-top: 15px;
+
+}
+.customLegend li span {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-right: 5px;
+  border-radius: 25px;
+
+}
+
+#doChart {
+  transform: scaleX(1) scaleY(1) scaleZ(1) rotateX(0deg) rotateY(-22deg) rotateZ(27deg) translateX(0px) translateY(1px) translateZ(0px) skewX(0deg) skewY(0deg);
+}
+
+.graph{
+  background: ;
+  width: 90%;
+  min-height: 250px;
+  max-height: 400px;
+  margin: auto;
+  cursor: pointer;
+}
+
